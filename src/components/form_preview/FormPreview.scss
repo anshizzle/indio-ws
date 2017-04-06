@@ -1,0 +1,15 @@
+ul.form-preview, .form-preview ul {
+  list-style-type: none;
+
+  .label {
+    margin-bottom: 5px;
+  }
+
+  .form-preview-item {
+    margin-bottom: 15px;
+  }
+
+  input[type='radio'] + label {
+    padding-right: 10px;
+  }
+}

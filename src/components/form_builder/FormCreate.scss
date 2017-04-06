@@ -1,0 +1,47 @@
+
+.flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.form-create  {
+
+  ul {
+    list-style-type: none;
+    margin-left: 5px;
+  }
+
+  .form-input-item {
+    border: 1px solid gray;
+    width: 40%;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+  }
+
+  .line-input {
+
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    .label {
+      width: 25%;
+      flex: 0 1 auto;
+    }
+
+    input, select {
+      flex: 1 0 auto;
+    }
+
+  }
+
+  .gray-btn {
+    width: 100px;
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}

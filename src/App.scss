@@ -1,0 +1,10 @@
+.react-tabs [role=tab] {
+  border-color: darkgray;
+  margin: 0px 10px 0px 10px;
+  border-radius: 0px;
+
+  &[aria-selected=true] {
+    background-color: lightgray;
+    border-radius: 0px;
+  }
+}
